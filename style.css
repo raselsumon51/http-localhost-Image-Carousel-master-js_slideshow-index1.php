@@ -1,0 +1,48 @@
+*{
+    padding: 0px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.carousel-container {
+    width: 800px;
+    margin: auto;
+    border: 5px solid black;
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel-slide {
+    display: flex;
+    width: 100%;
+    height: 500px;
+}
+
+#prevButt {
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    left: 3%;
+    font-size: 50px;
+    color: white;    
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+#nextButt {
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    right: 3%;
+    font-size: 50px;
+    color: white;    
+    opacity: 0.5;
+    cursor: pointer;
+}
